@@ -1,0 +1,99 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    text-align: center;
+    background-color: yellowgreen;
+    padding: 15px;
+}
+
+section {
+    display: flex;
+    height: 100vh;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+article {
+    flex: 1;
+    border-width: 3px;
+    border-style: solid;
+    padding: 1em;
+}
+
+article:nth-child(2) {
+    flex: 2;
+}
+
+
+#tablero {
+    background-color: burlywood; 
+    border-style: solid;
+    margin:auto;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    /*permite que los elementos salten a la siguiente línea*/
+    justify-content: space-between;
+    /*redistribuye el espacio sobrante*/
+}
+
+
+.item {
+    background-color:lemonchiffon;
+    width: 150px;
+    flex: none;
+    /*evita que los items crezcan o se reduzcan, quedan con el ancho definido del width*/
+    border-style: solid;
+    border-top-width: thick;
+    border-left-width: thick;
+    border-right-width: thick;
+    border-bottom-width: thick;
+
+}
+
+#fazul{
+    margin-top: 20px;
+}
+.item2 {
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-top: 15px;
+    
+}
+
+#frojo{
+    margin-top: 20px; 
+}
+
+.item3 {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-top: 15px; 
+}
+
+#tablero2{
+    background-color: rgb(42, 236, 74);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /*establecemos la forma de las columnas*/
+    border: solid;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+
+}
+
+.item4{
+    border-style: solid;
+    border-top-width: thin;
+    border-left-width: thin;
+    border-right-width: thin;
+    border-bottom-width: thin;
+    
+}

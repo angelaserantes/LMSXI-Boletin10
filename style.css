@@ -82,7 +82,7 @@ article:nth-child(2) {
     background-color: rgb(42, 236, 74);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr; /*establecemos la forma de las columnas*/
-    grid-template-rows: 1fr  1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     /* grid-auto-rows: 100px; */
     border: solid;
     height: 75vh;
@@ -97,5 +97,4 @@ article:nth-child(2) {
     border-left-width: thin;
     border-right-width: thin;
     border-bottom-width: thin;
-    
 }

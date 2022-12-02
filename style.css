@@ -29,7 +29,7 @@ article:nth-child(2) {
 
 #tablero {
     background-color: burlywood; 
-    border-style: solid;
+    border-style: dashed;
     margin:auto;
     width: 500px;
     height: 500px;
@@ -97,4 +97,39 @@ article:nth-child(2) {
     border-left-width: thin;
     border-right-width: thin;
     border-bottom-width: thin;
+}
+
+.container{
+    display: grid; /*para poner los elementos en vertical ya que al tener la section con el flex, todo estaba unido en horizontal*/
+    height: 20vh;
+}
+
+
+
+.p1{
+    border-bottom: blue dashed 10px ;
+    border-right: forestgreen dashed 4px;
+    border-top: blue dashed 4px;
+    border-left: outset forestgreen 7px;
+
+}
+
+.p2{
+    border-top: double yellow 10px;
+    border-bottom: double yellow 10px;
+    border-left: double yellow 2px;
+    border-right: double yellow 2px;
+}
+
+
+.p3{
+    border-top: solid greenyellow 7px;
+    border-bottom: solid blue 7px;
+}
+
+.p4{
+    border-right: solid 7px;
+    border-left: solid  6px;
+    border-bottom: dotted 7px;
+    border-top: red dashed 8px;
 }
